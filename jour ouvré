@@ -31,5 +31,5 @@ function JourDeTravail($date_yyyy_mm_jj) {
     else {
         $Travail = 1;
     }
-        return $Travail;
-    }
+    return $Travail;
+}
