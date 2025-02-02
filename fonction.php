@@ -1,7 +1,12 @@
 <?php
+/*
 @author christophe@metge.eu
-@since 2014-
+@since 2014-12-01
 @comment
+    function Jour Travailé ()
+    Input : date au format 2009-06-09
+    Output : retourne 1 si le jour est travaillé, sinon 0
+*/
 function JourDeTravail($date_yyyy_mm_jj) {
     // $date_yyyy_mm_jj au format 2009-06-09
     // retourne 1 si le jour est travaillé, sinon 0
